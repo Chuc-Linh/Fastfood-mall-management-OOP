@@ -1,0 +1,6 @@
+.DS_store
+# Java build artifacts
+*.class
+/bin/
+/out/
+/target/
