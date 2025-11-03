@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #121212;
+  color: white;
+}
+
+header {
+  background: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff4500;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.login-btn {
+  background: #ff4500;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: #ff5c1a;
+}
+
+.search-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: url("images1.jpg") center/cover no-repeat;
+  color: white;
+}
+
+.search-section h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.search-section p {
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+.search-box {
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  width: 300px;
+  background: transparent;
+  color: white;
+}
+
+.search-box button {
+  background: #0078ff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s;
+}
+
+.search-box button:hover {
+  background: #339cff;
+}
+
+.food-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background: #141414;
+}
+
+.food-card {
+  background: #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.food-card:hover {
+  transform: scale(1.03);
+}
+
+.food-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.food-card h3 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.food-card p {
+  color: #aaa;
+  font-size: 14px;
+  margin: 0 10px 10px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.discount {
+  background: #00c853;
+}
+
+.favorite {
+  background: #ff1744;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1a1a1a;
+  color: #bbb;
+  font-size: 14px;
+}
