@@ -1,0 +1,51 @@
+<HOADON>
+    <SANPHAM type="MY">
+        <Ma>MY01</Ma>
+        <Ten>My xao bo</Ten>
+        <Gia>40000</Gia>
+        <SoLuong>1</SoLuong>
+        <GiamGia>0.1</GiamGia>
+        <LoaiMy>My kho</LoaiMy>
+    </SANPHAM>
+
+    <SANPHAM type="COM">
+        <Ma>COM02</Ma>
+        <Ten>Com suon</Ten>
+        <Gia>50000</Gia>
+        <SoLuong>1</SoLuong>
+        <GiamGia>0.05</GiamGia>
+        <Them>Thit</Them>
+    </SANPHAM>
+
+    <SANPHAM type="NUOC">
+        <Ma>NUOC01</Ma>
+        <Ten>Tra sua</Ten>
+        <Gia>30000</Gia>
+        <SoLuong>1</SoLuong>
+        <GiamGia>0.1</GiamGia>
+        <Size>L</Size>
+    </SANPHAM>
+
+    <SANPHAM type="COMBO">
+        <Ma>CB01</Ma>
+        <Ten>Combo 1</Ten>
+        <Gia>0</Gia>
+        <SoLuong>1</SoLuong>
+        <GiamGia>0.2</GiamGia>
+        <MonAn type="GA">
+            <Ma>GA01</Ma>
+            <Ten>Ga ran</Ten>
+            <Gia>45000</Gia>
+            <SoLuong>1</SoLuong>
+            <GiamGia>0.05</GiamGia>
+        </MonAn>
+        <NuocUong type="NUOC">
+            <Ma>NUOC02</Ma>
+            <Ten>Coca</Ten>
+            <Gia>20000</Gia>
+            <SoLuong>1</SoLuong>
+            <GiamGia>0</GiamGia>
+            <Size>M</Size>
+        </NuocUong>
+    </SANPHAM>
+</HOADON>
