@@ -1,3 +1,5 @@
+package Nguoi;
+
 public class nguoi {
     protected String maDG;
     protected String ngaysinh;

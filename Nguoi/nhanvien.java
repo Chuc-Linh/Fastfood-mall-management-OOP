@@ -1,3 +1,4 @@
+package Nguoi;
 import Interface.Idanhhieu;
 
 public class nhanvien extends nguoi implements Idanhhieu {
@@ -47,6 +48,6 @@ public class nhanvien extends nguoi implements Idanhhieu {
         System.out.println("Ma NV: " + maNV);
         System.out.println("Chuc vu: " + DanhHieu());
         System.out.println("So ngay nghi: " + songaynghi);
-        System.out.println("Luong: " + tinhLuong());
+        System.out.println("Luong: " + tinhLuong() +"\n");
     }
 }

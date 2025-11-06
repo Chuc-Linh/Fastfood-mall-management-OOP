@@ -1,5 +1,5 @@
 package Interface;
 public interface Itaikhoan {
-    String getTenTK();
-    String getMatKhau();
+    void dangnhap(String tk, String mk);
+    void dangxuat();
 }
